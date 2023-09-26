@@ -4,7 +4,6 @@ import pathlib
 
 def generate_folder_structure(root_path, tree_structure):
     for folder, subfolders in tree_structure.items():
-        # folder_path = os.path.join(root_path, folder)
         folder_path = pathlib.Path(root_path) / folder
         if isinstance(subfolders, dict):
             pathlib.Path(folder_path).mkdir(parents=True, exist_ok=True)

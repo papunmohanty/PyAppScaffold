@@ -1,6 +1,6 @@
-# Folder Structure for a Sample Commandline based app
+# Folder Structure for a Sample Command-line based application
 
-## Sample Reference Project Structure for a commandline app
+## Sample Reference Project Structure for a commandline application
 
 ```sh
 project_name/
@@ -40,4 +40,4 @@ project_name/
 
 ## Bootstrapping the Project from an existing template
 
-The Python script `script.py` allows to scaffold project of a given structure specified in the distionary
+The Python script `script.py` allows to scaffold project from a given structure/template specified in the distionary
